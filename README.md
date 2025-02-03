@@ -59,7 +59,7 @@ This repository contains the source code for the **AIU_VIT_NUR_BAK** token, an E
     ```bash
     npx hardhat console --network sepolia
 
-2. Attach to the deployed contract:
+2. Attach to the deployed contract: Код подключается к существующему смарт-контракту и создает объект для взаимодействия с ним.
     ```bash
     const contractAddress = "0xYourContractAddress";
     const AIU_VIT_NUR_BAK = await ethers.getContractFactory("AIU_VIT_NUR_BAK");
